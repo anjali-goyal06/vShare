@@ -1,4 +1,4 @@
-package com.example.vshare.utilities;
+package com.example.java.utilities;
 
 import android.content.Context;
 import android.content.SharedPreferences;

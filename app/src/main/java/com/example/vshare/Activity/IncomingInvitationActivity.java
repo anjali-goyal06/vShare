@@ -14,9 +14,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.example.vshare.R;
-import com.example.vshare.network.ApiClient;
-import com.example.vshare.network.ApiService;
-import com.example.vshare.utilities.Constants;
+import com.example.java.network.ApiClient;
+import com.example.java.network.ApiService;
+import com.example.java.utilities.Constants;
 
 import org.jitsi.meet.sdk.JitsiMeetActivity;
 import org.jitsi.meet.sdk.JitsiMeetConferenceOptions;

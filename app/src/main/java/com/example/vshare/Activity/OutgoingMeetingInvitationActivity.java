@@ -15,10 +15,10 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.example.vshare.Model.User;
 import com.example.vshare.R;
-import com.example.vshare.network.ApiClient;
-import com.example.vshare.network.ApiService;
-import com.example.vshare.utilities.Constants;
-import com.example.vshare.utilities.PreferenceManager;
+import com.example.java.network.ApiClient;
+import com.example.java.network.ApiService;
+import com.example.java.utilities.Constants;
+import com.example.java.utilities.PreferenceManager;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 import org.jitsi.meet.sdk.JitsiMeetActivity;

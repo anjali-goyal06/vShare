@@ -11,8 +11,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.vshare.databinding.ActivitySignInBinding;
-import com.example.vshare.utilities.Constants;
-import com.example.vshare.utilities.PreferenceManager;
+import com.example.java.utilities.Constants;
+import com.example.java.utilities.PreferenceManager;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

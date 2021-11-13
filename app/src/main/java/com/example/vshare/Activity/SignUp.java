@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.vshare.databinding.ActivitySignUpBinding;
-import com.example.vshare.utilities.Constants;
-import com.example.vshare.utilities.PreferenceManager;
+import com.example.java.utilities.Constants;
+import com.example.java.utilities.PreferenceManager;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -60,10 +60,10 @@ public class SignUp extends AppCompatActivity {
             }
         });
 
-        if (auth.getCurrentUser() != null) {
-            startActivity(new Intent(getApplicationContext(), UserListView.class));
-            finish();
-        }
+//        if (auth.getCurrentUser() != null) {
+//            startActivity(new Intent(getApplicationContext(), UserListView.class));
+//            finish();
+//        }
 
 
         binding.signUpButton.setOnClickListener(new View.OnClickListener() {
@@ -105,13 +105,13 @@ public class SignUp extends AppCompatActivity {
                                     documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                         @Override
                                         public void onSuccess(Void aVoid) {
-                                            Log.i("ccchhh","done");
+                                            Log.i("check","done");
                                             Toast.makeText(SignUp.this,"document sucessfill , ",Toast.LENGTH_SHORT).show();
                                         }
                                     }).addOnFailureListener(new OnFailureListener() {
                                         @Override
                                         public void onFailure(@NonNull Exception e) {
-                                            Log.i("ccchhh","faiiillll");
+                                            Log.i("line 114","faiiillll");
                                             Toast.makeText(SignUp.this,"document sfaildded , ",Toast.LENGTH_SHORT).show();
 
                                         }

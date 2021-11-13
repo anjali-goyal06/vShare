@@ -1,4 +1,4 @@
-package com.example.vshare.network;
+package com.example.java.network;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.scalars.ScalarsConverterFactory;

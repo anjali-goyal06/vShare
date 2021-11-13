@@ -1,4 +1,4 @@
-package com.example.vshare.firebase;
+package com.example.java.firebase;
 
 import android.content.Intent;
 
@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.example.vshare.Activity.IncomingInvitationActivity;
-import com.example.vshare.utilities.Constants;
+import com.example.java.utilities.Constants;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 

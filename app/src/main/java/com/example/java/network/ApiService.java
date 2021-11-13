@@ -1,4 +1,4 @@
-package com.example.vshare.network;
+package com.example.java.network;
 
 import java.util.HashMap;
 

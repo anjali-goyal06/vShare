@@ -14,8 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.vshare.Activity.ChatActivity;
 import com.example.vshare.Model.User;
 import com.example.vshare.R;
-import com.example.vshare.listeners.UsersListener;
-import com.example.vshare.utilities.Constants;
+import com.example.java.listeners.UsersListener;
+import com.example.java.utilities.Constants;
 
 import java.util.List;
 

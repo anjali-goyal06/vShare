@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.vshare.Model.Message;
 import com.example.vshare.R;
 import com.example.vshare.adapters.MessageAdapter;
-import com.example.vshare.utilities.Constants;
+import com.example.java.utilities.Constants;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
