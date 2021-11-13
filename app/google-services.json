@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "62542936949",
+    "project_id": "vshare-e53ed",
+    "storage_bucket": "vshare-e53ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62542936949:android:ab383fea184c558fa8b13c",
+        "android_client_info": {
+          "package_name": "com.example.vshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62542936949-2n2h9dbheadulvq63gjrqrmo9nvfs2nu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnv9x-FnFu6mJ8Kivch2c-D6xaRiLRwgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62542936949-2n2h9dbheadulvq63gjrqrmo9nvfs2nu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
